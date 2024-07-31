@@ -8,7 +8,6 @@ namespace Platformer.GameplayObjects
 		[SerializeField] private Rigidbody2D rb;
 		[SerializeField] private BoxCollider2D exitTrigger;
 
-		// =============== Move ===============
 		private Vector2 lastPosition;
 		private Vector2 currentPosition;
 		private Vector2 currentSpeed;
